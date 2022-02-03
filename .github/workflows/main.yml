@@ -15,4 +15,6 @@ jobs:
           PAGES_BRANCH: gh-pages
           # Provide personal access token
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          run: |
+            git clone "https://username:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
