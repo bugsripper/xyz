@@ -1,3 +1,4 @@
+# On every push this script is executed
 on: push
 name: Build and deploy GH Pages
 jobs:
@@ -13,4 +14,5 @@ jobs:
           # Target branch
           PAGES_BRANCH: gh-pages
           # Provide personal access token
-          TOKEN: ${{ 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 }}
+          TOKEN: ${{ secrets.TOKEN }}
+
