@@ -1,7 +1,43 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #161719;
-  color: #DDA173;
+  background-color: #0E1822;
+  color: #FE4553;
+  align-items: center;
   text-align: center;
+}
+
+.main-container {
+  margin: 0 5% 0 5%;
+  padding: 5% 0 5% 0;
+}
+
+h1 {
+  font-size: 500%;
+  font-weight: bolder;
+  margin: 2%;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #ff828c;
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
+.profile {
+  height: 200px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  display: inline;
+  margin: 7px;
+}
+
+.s-btn {
+  height: 30px;
 }
