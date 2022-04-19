@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  font-size: 500%;
+  font-size: 700%;
   font-weight: bolder;
   margin: 2%;
   margin-bottom: 0;
@@ -26,7 +26,7 @@ h3 {
 }
 
 .profile {
-  height: 200px;
+  height: 300px;
 }
 
 ul {
@@ -39,5 +39,5 @@ li {
 }
 
 .s-btn {
-  height: 30px;
+  height: 50px;
 }
