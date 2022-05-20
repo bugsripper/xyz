@@ -25,19 +25,3 @@ h3 {
   padding-bottom: 20px;
 }
 
-.profile {
-  height: 300px;
-}
-
-ul {
-  padding-left: 0;
-}
-
-li {
-  display: inline;
-  margin: 7px;
-}
-
-.s-btn {
-  height: 50px;
-}
